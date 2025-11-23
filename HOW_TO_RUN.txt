@@ -1,0 +1,17 @@
+HOW TO RUN THE APPLICATION
+===========================
+
+✅ CORRECT WAY:
+   Run: python gui.py
+   OR: python main.py --gui
+
+❌ DO NOT RUN:
+   - auth.py (this is a module, not meant to be run directly)
+   - main.py without --gui flag (this runs CLI mode)
+
+The application will:
+1. Show authentication window first
+2. After successful login, show the main translation window
+3. Authentication window will close automatically
+
+
