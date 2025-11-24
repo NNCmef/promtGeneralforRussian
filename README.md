@@ -29,14 +29,6 @@ The application requires authentication before use. To set up:
 python setup_auth.py
 ```
 
-2. Upload the generated `users.json` file to a GitHub repository
-3. Update the `GITHUB_DB_URL` in `auth.py` with your repository's raw file URL:
-
-```python
-GITHUB_DB_URL = "https://raw.githubusercontent.com/yourusername/yourrepo/main/users.json"
-```
-
-The authentication system uses SHA-256 password hashing for security. Passwords are never stored in plain text.
 
 ## Usage
 
